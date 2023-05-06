@@ -34,10 +34,12 @@
 <script src="geojson/sla.geojson"></script>
 <script src="geojson/hur.geojson"></script>
 <script src="geojson/ret.geojson"></script>
+<script src="geojson/sor.geojson"></script>
 <script src="flags.js"></script>
 
   </head>
   <body>
+
     <div id="map"></div>
 
     <script src="leaflet.js"></script>
@@ -67,19 +69,17 @@ L.geoJson(akr, akrs).addTo(map)
 L.geoJson(vol, vols).addTo(map)
     .bindPopup('<h2>Королевство Волерия</h2>'+voli)
 L.geoJson(asr, asrs).addTo(map)
-    .bindPopup('<h2>Венианский Социалистический Союз (Вениания)</h2>'+asri)
+    .bindPopup('<h2>Королевство Пантеания</h2>'+asri)
 L.geoJson(rur, rurs).addTo(map)
     .bindPopup('<h2>Руссанская Республика</h2>'+ruri)
-L.geoJson(rul, ruls).addTo(map)
-    .bindPopup('<h2>Русландское Королевство</h2>'+ruli)
 L.geoJson(sev, sevs).addTo(map)
     .bindPopup('<h2>Республика Севосополь</h2>'+sevi)
 L.geoJson(sla, slas).addTo(map)
     .bindPopup('<h2>Федеративная Республика Славия</h2>'+slai)
-
 L.geoJson(ret, rets).addTo(map)
     .bindPopup('<h2>РетРейн</h2>'+reti)
-
+L.geoJson(sor, sors).addTo(map)
+    .bindPopup('<h2>Сордландская республика</h2>'+sori)
 	</script>
 	
 

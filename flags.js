@@ -11,4 +11,5 @@ var slai = '<img src="flags/sla.jpg" height="200px" width="300px"/>';
 var ruli = '<img src="flags/rul.jpg" height="200px" width="300px"/>';
 var kapi = '<img src="flags/kap.jpg" height="200px" width="300px"/>';
 var akri = '<img src="flags/akr.jpg" height="200px" width="300px"/>';
+var sori = '<img src="flags/sor.jpg" height="200px" width="300px"/>';
 var huri = '<img src="https://sun9-68.userapi.com/impg/lPwOVbp3M6NNAFnzYuZpgVcuIo56uvARHbXpRw/8YocsHp6fC4.jpg?size=590x393&quality=95&sign=ef7826f76d86dfd9cdc69da060d4217f&type=album" height="200px" width="300px"/>';
