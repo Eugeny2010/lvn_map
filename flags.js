@@ -1,4 +1,4 @@
-//var id = '<img src="flags/" height="200px" width="300px"/>';
+//var id = '<img src="flags/" height="200px" width="300px"/>';.
 
 var asri = '<img src="flags/asr.jpg" height="200px" width="300px"/>';
 var ruri = '<img src="flags/rur.jpg" height="200px" width="300px"/>';
