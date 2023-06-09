@@ -38,6 +38,7 @@
 <script src="geojson/vik.geojson"></script>
 <script src="geojson/lyu.geojson"></script>
 <script src="geojson/str.geojson"></script>
+<script src="geojson/ens.geojson"></script>
 <script src="flags.js"></script>
 
   </head>
@@ -87,6 +88,8 @@ L.geoJson(lyu, lyus).addTo(map)
     .bindPopup('<h2>Любовская Республика</h2>'+lyui)
 L.geoJson(str, strs).addTo(map)
     .bindPopup('<h2>Страна Реальности</h2>'+stri)
+L.geoJson(ens, enss).addTo(map)
+    .bindPopup('<h2>Единый Народный Союз</h2>'+ensi)
 	</script>
 	
 
